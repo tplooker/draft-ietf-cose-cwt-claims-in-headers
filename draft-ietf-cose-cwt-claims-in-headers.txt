@@ -5,12 +5,12 @@
 COSE                                                           T. Looker
 Internet-Draft                                                     Mattr
 Intended status: Standards Track                                M. Jones
-Expires: 3 September 2022                                      Microsoft
-                                                            2 March 2022
+Expires: 10 January 2023                                       Microsoft
+                                                             9 July 2022
 
 
               CBOR Web Token (CWT) Claims in COSE Headers
-             draft-looker-cose-cwt-claims-in-headers-latest
+              draft-ietf-cose-cwt-claims-in-headers-latest
 
 Abstract
 
@@ -27,7 +27,7 @@ Discussion Venues
    This note is to be removed before publishing as an RFC.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/tplooker/draft-looker-cose-cwt-claims-in-headers.
+   https://github.com/tplooker/draft-ietf-cose-cwt-claims-in-headers.
 
 Status of This Memo
 
@@ -44,7 +44,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 September 2022.
+   This Internet-Draft will expire on 10 January 2023.
 
 Copyright Notice
 
@@ -156,7 +156,9 @@ Appendix A.  Document History
 
    -00
 
-   *  Initial version
+   *  Created draft-ietf-cose-cwt-claims-in-headers-00 from draft-
+      looker-cose-cwt-claims-in-headers-00 following working group
+      adoption.
 
 Authors' Addresses
 
