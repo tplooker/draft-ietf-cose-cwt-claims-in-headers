@@ -1,7 +1,7 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-07-07T00:24:09.358174+00:00",
-  "repo": "tplooker/draft-looker-cose-cwt-claims-in-headers",
+  "timestamp": "2022-07-10T00:25:11.489084+00:00",
+  "repo": "tplooker/draft-ietf-cose-cwt-claims-in-headers",
   "labels": [
     {
       "name": "bug",
@@ -55,7 +55,7 @@
       "number": 1,
       "id": "PR_kwDOGyRGVs4ztQRU",
       "title": "Mike's initial contributions",
-      "url": "https://github.com/tplooker/draft-looker-cose-cwt-claims-in-headers/pull/1",
+      "url": "https://github.com/tplooker/draft-ietf-cose-cwt-claims-in-headers/pull/1",
       "state": "MERGED",
       "author": "selfissued",
       "authorAssociation": "NONE",
@@ -64,7 +64,7 @@
       "body": "Based on my 28-Feb-22 review of the draft.",
       "createdAt": "2022-03-01T06:11:20Z",
       "updatedAt": "2022-03-01T07:08:08Z",
-      "baseRepository": "tplooker/draft-looker-cose-cwt-claims-in-headers",
+      "baseRepository": "tplooker/draft-ietf-cose-cwt-claims-in-headers",
       "baseRefName": "main",
       "baseRefOid": "56ec4b5aece2b117c75430bf43e0779a93cb0dae",
       "headRepository": "selfissued/draft-looker-cose-cwt-claims-in-headers",
@@ -89,6 +89,56 @@
           "body": "",
           "createdAt": "2022-03-01T07:07:56Z",
           "updatedAt": "2022-03-01T07:07:56Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOGyRGVs47Ee-G",
+      "title": "Rename draft to reflect cose WG adoption",
+      "url": "https://github.com/tplooker/draft-ietf-cose-cwt-claims-in-headers/pull/2",
+      "state": "MERGED",
+      "author": "tplooker",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "As per the title following the formal adoption by the COSE WG this PR updates the draft name to reflect this.",
+      "createdAt": "2022-07-08T00:28:26Z",
+      "updatedAt": "2022-07-09T02:20:09Z",
+      "baseRepository": "tplooker/draft-ietf-cose-cwt-claims-in-headers",
+      "baseRefName": "main",
+      "baseRefOid": "4abc8d17da9cf1829f4b85f3331a789e58dc2eb8",
+      "headRepository": "tplooker/draft-ietf-cose-cwt-claims-in-headers",
+      "headRefName": "tl/rename-draft",
+      "headRefOid": "4f6765e8ab2f131f472fdde8a64662736514a8c5",
+      "closedAt": "2022-07-09T02:20:05Z",
+      "mergedAt": "2022-07-09T02:20:05Z",
+      "mergedBy": "tplooker",
+      "mergeCommit": {
+        "oid": "55b7b084b2433832a5af7a262094f93b3edd6b3b"
+      },
+      "comments": [
+        {
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "body": "@selfissued",
+          "createdAt": "2022-07-08T00:28:34Z",
+          "updatedAt": "2022-07-08T00:28:34Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGyRGVs49ifzM",
+          "commit": {
+            "abbreviatedOid": "e659e6f"
+          },
+          "author": "selfissued",
+          "authorAssociation": "NONE",
+          "state": "CHANGES_REQUESTED",
+          "body": "There should be a Document History appendix, with this content:\r\n\r\n-00\r\n\r\n- Created draft-ietf-cose-cwt-claims-in-headers-00 from draft-looker-cose-cwt-claims-in-headers-00 following working group adoption.\r\n\r\n(See https://www.ietf.org/archive/id/draft-ietf-oauth-jwk-thumbprint-uri-03.html#name-document-history for an example of such a Document History section.)",
+          "createdAt": "2022-07-08T06:27:33Z",
+          "updatedAt": "2022-07-08T06:27:33Z",
           "comments": []
         }
       ]
